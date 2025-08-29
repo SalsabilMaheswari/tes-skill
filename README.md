@@ -67,6 +67,6 @@ npm run start
 ## Teknologi dan library utama
 * Express.js
 * MySQL
-* [Sequelize]
+* Sequelize
 * JWT (jsonwebtoken)
-* [bcryptjs]
+* bcryptjs
