@@ -65,8 +65,19 @@ npm run start
 ![db structure](img/database.png)
 
 ## Teknologi dan library utama
+
+### Backend
 * Express.js
 * MySQL
 * Sequelize
 * JWT (jsonwebtoken)
 * bcryptjs
+
+### Frontend
+
+* React
+* Vite
+* TypeScript
+* Axios
+* React Router DOM
+* Lucide React
