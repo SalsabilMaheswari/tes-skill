@@ -9,7 +9,7 @@ cd tes-skill
 ```
 
 ### 2. Setup Database (MySQL)
-1. Buat database baru di MysQL:
+1. Buat database baru di MySQL:
 ```sql
 CREATE DATABASE urbanfarming;
 ```
@@ -25,3 +25,16 @@ mysql -u root -p urbanfarming < urbanfarming.sql
 cd backend
 npm install
 ```
+
+Buka file `.env` di folder `backend/`
+```env
+PORT=4000
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_DATABASE=urbanfarming
+JWT_SECRET=yourjwtsecret
+```
+* Sesuaikan dengan user dan password MySQL
+* Isi JWT_SECRET dengan secret string bebas 
+* Jangan gunakan nilai default yourpassword dan yourjwtsecret di production. Ganti dengan nilai sebenarnya di server masing-masing.
