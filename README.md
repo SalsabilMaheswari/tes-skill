@@ -47,4 +47,19 @@ node seedAdmin.js
 Default akun admin:
 
 * Email: `admin@example.com`
-* Password: `admin123`
+* Password: `Admin123!`
+
+### 4. Setup Frontend
+Masuk ke folder frontend:
+
+```bash
+cd ../frontend
+npm install
+```
+Jalankan frontend:
+```bash
+npm run start
+```
+
+### Struktur Database
+![db structure](img/database.png)
