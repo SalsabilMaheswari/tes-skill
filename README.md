@@ -83,11 +83,13 @@ npm run start
 * Lucide React
 
 ## Daftar fitur yang selesai + bonus task
- 1. Stage 1 - Role & Authentication & Authorization (Backend)
- * Fitur Wajib:
-    1. Register dan login.
-    2. User memiliki role: admin, farmer, agronomist.
-* bonus task: Middleware Role-based Authorization
 
-2.  Stage 2 — Tanaman dan Perawatan (Backend)
- * Fitur Wajib: Admin dapat mengelola data Tanaman (CRUD). Setiap tanaman memiliki informasi nama, spesies, dan lokasi.
+1. Stage 1 - Role & Authentication & Authorization (Backend)
+   * Fitur Wajib:
+     1. Register dan login.
+     2. User memiliki role: admin, farmer, agronomist.
+   * Bonus task: Middleware Role-based Authorization
+
+2. Stage 2 — Tanaman dan Perawatan (Backend)
+   * Fitur Wajib: 
+     1. Admin dapat mengelola data Tanaman (CRUD). Setiap tanaman memiliki informasi nama, spesies, dan lokasi.
