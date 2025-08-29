@@ -5,5 +5,9 @@
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/salsabilmaheswari/tes-skill.git
-cd urban-farming
+cd tes-skill
 
+### 2. Setup Backend
+```bash
+cd backend
+npm install
