@@ -61,5 +61,5 @@ Jalankan frontend:
 npm run start
 ```
 
-### Struktur Database
+## Struktur Database
 ![db structure](img/database.png)
