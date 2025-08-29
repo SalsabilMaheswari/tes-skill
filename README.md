@@ -63,3 +63,10 @@ npm run start
 
 ## Struktur Database
 ![db structure](img/database.png)
+
+## Teknologi dan library utama
+* Express.js
+* MySQL
+* [Sequelize]
+* JWT (jsonwebtoken)
+* [bcryptjs]
