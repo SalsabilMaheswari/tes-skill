@@ -26,7 +26,7 @@ cd backend
 npm install
 ```
 
-Buka file `.env` di folder `backend/`
+1. Buka file `.env` di folder `backend/`
 ```env
 PORT=4000
 DB_HOST=localhost
@@ -38,3 +38,13 @@ JWT_SECRET=yourjwtsecret
 * Sesuaikan dengan user dan password MySQL
 * Isi JWT_SECRET dengan secret string bebas 
 * Jangan gunakan nilai default yourpassword dan yourjwtsecret di production. Ganti dengan nilai sebenarnya di server masing-masing.
+
+2. Seed Admin Default
+Untuk membuat akun admin default, jalankan:
+```bash
+node seedAdmin.js
+```
+Default akun admin:
+
+* Email: `admin@example.com`
+* Password: `admin123`
